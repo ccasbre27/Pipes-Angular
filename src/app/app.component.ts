@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'pipes';
 
   nombre = 'Carlos';
+  nombre2 = 'CaRlOs CasTro BrEnEs';
 
   arreglo = [1,2,3,4,5,6,7,8,9,10];
 
@@ -35,6 +36,7 @@ export class AppComponent {
   });
 
   fecha = new Date();
+  
 
 
 }

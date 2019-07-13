@@ -96,6 +96,16 @@
                 <td>date personalizada 'MMMM - dd'</td>
                 <td>{{ fecha | date: 'MMMM - dd' }}</td>
             </tr>
+            <tr>
+                <th scope="row">{{ nombre2 }}</th>
+                <td>capitalizado</td>
+                <td>{{ nombre2 | capitalizado }}</td>
+            </tr>
+            <tr>
+                <th scope="row">{{ nombre2 }}</th>
+                <td>capitalizado false</td>
+                <td>{{ nombre2 | capitalizado:false }}</td>
+            </tr>
         </tbody>
     </table>
 
