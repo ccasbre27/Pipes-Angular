@@ -39,4 +39,6 @@ export class AppComponent {
   
   video = 'BiCvdZ6BljI';
 
+  activar = false;
+
 }
