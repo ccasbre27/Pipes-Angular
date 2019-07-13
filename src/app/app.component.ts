@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'pipes';
 
-  nombre = "Carlos";
+  nombre = 'Carlos';
 
   arreglo = [1,2,3,4,5,6,7,8,9,10];
 
@@ -19,14 +19,20 @@ export class AppComponent {
   salario = 124.5;
 
   heroe = {
-    nombre: "Logan",
-    clave: "Wolverine",
+    nombre: 'Logan',
+    clave: 'Wolverine',
     edad: 500,
     direccion: {
-      calle: "Primera",
-      casa: "19"
+      calle: 'Primera',
+      casa: '19'
     }
   };
+
+  valorDePromesa = new Promise( (resolve, reject) => {
+    
+    setTimeout( () => resolve('Llegó la data'), 3500);
+
+  });
 
 
 }
