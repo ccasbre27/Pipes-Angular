@@ -16,5 +16,7 @@ export class AppComponent {
 
   a = 0.234;
 
+  salario = 124.5;
+
 
 }
