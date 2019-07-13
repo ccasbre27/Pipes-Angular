@@ -112,6 +112,10 @@
     <h4>JSON</h4>
     <pre>{{ heroe | json}}</pre>
 
+    <h4>YouTube <small>video</small></h4>
+    <hr>
+    <iframe width="560" height="315" [src]="video | domseguro:'https://www.youtube.com/embed/'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </div>
 
 
